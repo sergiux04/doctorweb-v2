@@ -1,0 +1,144 @@
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.info-container {
+    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    width: max-content;
+}
+
+h2 {
+    color: #000; 
+ }
+ 
+ p {
+    color: #333; 
+ }
+
+ button {
+    padding: 10px;
+    color: #fff;
+    background-color: #38B6FF
+ }
+
+ /* .container {
+    position: relative;
+    left: -2vh;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    max-height: 900px;
+    max-width: 1000px;
+    height: 100vh;
+    background-size: cover;
+    opacity: 0;
+      animation: fadeIn 1.5s ease-in-out forwards; 
+} */
+
+.container {
+    left: -2vh;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Change to column for mobile */
+    align-items: center;
+    justify-content: center;
+    max-height: 700px;
+    max-width: 700px;
+    height: 150vh;
+    width: 70vh;
+    background: url('https://mixkit.co/free-stock-video/a-little-boy-having-treatment-with-the-dentist-13165/') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.8;
+    flex-direction: column;
+}
+
+.left {
+    flex: 1;
+    height: 100%;
+    
+}
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 80%;
+    width: 80%;
+    padding: 20px;
+    margin-left: 20px;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+button {
+    background-color:#38B6FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    
+}
+
+button:hover {
+    background-color: #005a9e;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@media only screen and (max-width: 800px) {
+    .container {
+        position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        max-height: 700px;
+        max-width: 80%;
+        /* Add any additional styles for larger screens */
+        left: -10%;
+        margin-left: auto;
+    }
+
+    .h11 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .h22 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+}

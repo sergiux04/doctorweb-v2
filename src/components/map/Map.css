@@ -1,0 +1,25 @@
+.container-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#map {
+    width: 80%;
+    height: 60vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+
+@media only screen and (max-width: 768px) {
+    #map {
+        max-width: none;
+}
+    }

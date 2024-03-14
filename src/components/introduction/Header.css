@@ -1,0 +1,46 @@
+/* YourComponent.css (or any other stylesheet) */
+
+.video-header {
+    position: relative;
+    background-color: rgba(56, 182, 255, 0.8)
+    ; /* Set your desired background color */
+    padding: 20px 0; /* Add padding as needed */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Add padding as needed */
+
+}
+
+.logo {
+    font-size: 35px;
+    margin: 0;
+    /* color: black; */
+}
+
+nav ul {
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Set a darker color for better visibility */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Set your desired hover color */
+}
